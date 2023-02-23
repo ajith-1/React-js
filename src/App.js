@@ -4,10 +4,10 @@ import React, {useState} from 'react';
 
 export default function App() {
   let[change1,setpara]=useState('para1');
-let clickHere=true;
+let click=true;
   function btn(){
-   clickHere=!clickHere
-    if(clickHere){
+   click=!click
+    if(click){
     setpara("para");
   }
   else{
