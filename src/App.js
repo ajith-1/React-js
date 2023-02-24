@@ -3,7 +3,7 @@ import './style.css';
 import React, { useState } from 'react';
 
 export default function App() {
-  /* let[change1,setpara]=useState('para1');
+  /*let[change1,setpara]=useState('para1');
 let click=true;
   function btn(){
    click=!click
@@ -13,8 +13,7 @@ let click=true;
   else{
     setpara("para1")
   }   
-  }
-  */
+  }*/
   function btn() {
     document.getElementById('change1').classList.toggle('para');
   }
