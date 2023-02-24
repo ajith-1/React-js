@@ -20,9 +20,8 @@ let click=true;
 
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
+      <h1 id={'change1'}>Hello StackBlitz!</h1>
       <button onClick={btn}>click</button>
-      <p id={'change1'}>Start editing to see some magic happen :)</p>
     </div>
   );
 }
