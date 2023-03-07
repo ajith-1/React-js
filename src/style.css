@@ -14,3 +14,23 @@ h1 {
 .App {
   margin-bottom: 15px;
 }
+label{
+  margin: 5px;
+  font-size: 20px;
+}
+input{
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid cornflowerblue;
+  margin: 5px;
+}
+button{
+  margin: 5px;
+  border-radius: 5px;
+  border: 0;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(75, 152, 229);
+  color: aliceblue;
+}

@@ -34,6 +34,7 @@ function Logform(props) {
   return (
     <div className="App">
       <form onSubmit={formSubmit}>
+        <h1>{props.head}</h1>
         <div className="forms">
           <label>First Name</label>
           <br></br>
