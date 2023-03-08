@@ -25,11 +25,6 @@ let click=true;
       <button onClick={btn}>click</button> */}
 
       <Logform head='FORM 1'/>
-      <Logform head='FORM 2'/>
-      <Logform head='FORM 3'/>
-      <Logform head='FORM 4'/>
-
-
     </div>
   );
 }
