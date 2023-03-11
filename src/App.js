@@ -1,31 +1,29 @@
 import React from 'react';
 import './style.css';
 import Logform from './Demo.jsx';
-// import List1 from './Newapp.jsx';
+import App1 from '../Newapp.jsx';
 import React, { useState } from 'react';
 
 export default function App() {
-  /*  let[change1,setpara]=useState('para1');
+   let[change1,setpara]=useState(false);
   
-}
-let click=true;
-  function btn(){
-   click=!click
-    if(click){
-    setpara("para");
+const btn=()=>{
+  let click1=true;
+  if(click1){
+    setpara("para")
   }
   else{
-    setpara("para1")
-  }   
-  }*/
+    setpara("change1")
+  }
+}
 
   return (
     <div>
-      {/* <h1 className={change1}>Hello StackBlitz!</h1>
-      <button onClick={btn}>click</button> */}
+      <h1 className={change1}>Hello StackBlitz!</h1>
+      <button onClick={btn}>click</button>
 
-      <Logform head="FORM 1" />
-      {/* <List1 /> */}
+      {/* <Logform head="FORM 1" />
+      <App1 /> */}
     </div>
   );
 }
