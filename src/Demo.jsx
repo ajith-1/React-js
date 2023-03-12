@@ -1,6 +1,6 @@
 import React from 'react';
 import React, { useState } from 'react';
-import { expenses } from "./App.js";
+import { expenses } from './App.js';
 
 import './style.css';
 
@@ -83,34 +83,3 @@ export default function Logform(props) {
     </div>
   );
 }
-
- 
- export default function List1(props){
-
-  const [change, setChange] = useState("");
-
-  const b = expenses.map((e) => {
-
-     console.log(e)
-  });
- 
-const next=(e)=>{
-  setChange("e")
-  // console.log(e)
-}
-const prev=(e)=>{
-
-}
-
-  return (<div>
-  <h1>Expenses</h1>
-      <p className={change.id}></p>
-      <p className={change.title}></p>
-      <p className={change.amount}></p>
-      <p className={change.date}></p>
-     <button onClick={prev}>Prev</button>
-     <button onClick={next}>Next</button>
-  
-  </div>);
-  }
- 
